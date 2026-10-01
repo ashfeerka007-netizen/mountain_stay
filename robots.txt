@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ashfeerka007-netizen.github.io/mountain_stay_retrete/sitemap.xml

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="mountGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2b48" />
+      <stop offset="100%" stop-color="#1e5f74" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <rect width="64" height="64" rx="16" fill="url(#mountGrad)" />
+  
+  <!-- Mountains -->
+  <path d="M8 48L24 24L36 40L44 30L56 48H8Z" fill="#2d7f83" fill-opacity="0.4" />
+  <path d="M14 48L28 28L40 48H14Z" fill="#ffffff" fill-opacity="0.9" />
+  <path d="M28 28L34 37L40 48H14L28 28Z" fill="#e2e8f0" fill-opacity="0.8" />
+  
+  <!-- Warm Sun / Retreat Badge -->
+  <circle cx="44" cy="22" r="7" fill="url(#goldGrad)" />
+  
+  <!-- Cozy Lodge Roof Line -->
+  <path d="M26 48V42H38V48H26Z" fill="#92400e" />
+  <path d="M24 42L32 35L40 42H24Z" fill="#b45309" />
+</svg>
