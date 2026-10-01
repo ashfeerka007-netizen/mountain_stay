@@ -1,0 +1,20 @@
+{
+  "name": "mountain-stay-retreat",
+  "version": "1.0.0",
+  "description": "Mountain Stay Retreat - Official Lodging & Dormitory Portal managed by Wayanad District Police Co-operative Society Ltd. No. W 208",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "node server.js"
+  },
+  "keywords": [
+    "mountain-stay-retreat",
+    "wayanad",
+    "police-society",
+    "dormitory",
+    "lodging"
+  ],
+  "author": "Wayanad District Police Co-operative Society Ltd. No. W 208",
+  "license": "ISC"
+}
