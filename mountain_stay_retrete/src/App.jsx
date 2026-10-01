@@ -43,7 +43,7 @@ const galleryImages = [
   '/Images/Rooms/7.jpeg',
 ];
 
-const fallbackImage = '/Images/Rooms/fallback.jpg';
+const fallbackImage = '/Images/Rooms/1.jpg';
 
 const generateRefId = (prefix) => `${prefix}-${Date.now().toString().slice(-6)}`;
 
