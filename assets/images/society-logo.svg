@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#142c4b" />
+      <stop offset="100%" stop-color="#0b1b30" />
+    </linearGradient>
+    <linearGradient id="crestGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Outer Shield -->
+  <path d="M50 6L88 20V52C88 74 50 94 50 94C50 94 12 74 12 52V20L50 6Z" fill="url(#shieldGrad)" stroke="url(#crestGold)" stroke-width="3" stroke-linejoin="round" />
+  <path d="M50 12L82 24V50C82 69 50 86 50 86C50 86 18 69 18 50V24L50 12Z" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1.5" fill="none" />
+
+  <!-- Stars -->
+  <circle cx="50" cy="22" r="3" fill="#fbbf24" />
+  <circle cx="40" cy="25" r="2.2" fill="#fbbf24" />
+  <circle cx="60" cy="25" r="2.2" fill="#fbbf24" />
+
+  <!-- Mountain Peak Icon -->
+  <path d="M28 62L44 38L52 50L60 38L72 62H28Z" fill="#38bdf8" fill-opacity="0.25" />
+  <path d="M34 62L48 42L62 62H34Z" fill="#ffffff" fill-opacity="0.9" />
+  
+  <!-- Lodge / Emblem Structure -->
+  <rect x="44" y="52" width="12" height="10" fill="#fbbf24" />
+  <path d="M42 52L50 45L58 52H42Z" fill="#d97706" />
+
+  <!-- WDPCS Ribbon text or banner base -->
+  <path d="M24 72H76L70 80H30L24 72Z" fill="#fbbf24" />
+  <text x="50" y="78" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="900" font-size="6.5" fill="#0b1b30" text-anchor="middle" letter-spacing="0.5">WDPCS RETREAT</text>
+</svg>
